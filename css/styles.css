@@ -7,3 +7,21 @@
 body {
   margin: 0;
 }
+
+.skip-link {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 10px 12px;
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
+  z-index: 1000;
+
+  transform: translateY(-200%);
+}
+
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
