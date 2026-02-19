@@ -8,6 +8,18 @@ body {
   margin: 0;
 }
 
+.page-bg {
+  position: fixed;
+  inset: 0;
+  background-color: #f6e7c4;
+  background-image: url("../assets/img/hcbh_bg_tile_512_warm_v1.webp");
+  background-repeat: repeat;
+  background-size: 512px 512px;
+  opacity: 0.28;
+  pointer-events: none;
+  z-index: -1;
+}
+
 .skip-link {
   position: absolute;
   top: 12px;
