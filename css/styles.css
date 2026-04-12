@@ -37,3 +37,12 @@ body {
 .skip-link:focus-visible {
   transform: translateY(0);
 }
+
+.site-header {
+  position: relative;
+  z-index: 0;
+
+  width: min(1100px, calc(100% - 32px));
+  margin: 16px auto;
+  padding: 14px 16px;
+}
