@@ -1,3 +1,15 @@
+:root {
+  --color-green-dark: #2F3A2A;
+  --color-cream: #F7EEDD;
+  --color-gold: #B08D57;
+  --color-green-sage: #79845E;
+  --color-green-pale: #A2A074;
+  --color-green-olive: #46533B;
+  --color-green-bud: #2E3829;
+  --color-purple-deep: #3F173B;
+  --color-purple-mauve: #5E2F59;
+}
+
 *,
 *::before,
 *::after {
@@ -11,7 +23,7 @@ body {
 .page-bg {
   position: fixed;
   inset: 0;
-  background-color: #f6e7c4;
+  background-color: var(--color-cream);
   background-image: url("../assets/img/hcbh_bg_tile_512_warm_v1.webp");
   background-repeat: repeat;
   background-size: 512px 512px;
