@@ -1,13 +1,13 @@
 :root {
-  --color-green-dark: #2F3A2A;
-  --color-cream: #F7EEDD;
-  --color-gold: #B08D57;
-  --color-green-sage: #79845E;
-  --color-green-pale: #A2A074;
-  --color-green-olive: #46533B;
-  --color-green-bud: #2E3829;
-  --color-purple-deep: #3F173B;
-  --color-purple-mauve: #5E2F59;
+  --color-green-dark: #2f3a2a;
+  --color-cream: #f7eedd;
+  --color-gold: #b08d57;
+  --color-green-sage: #79845e;
+  --color-green-pale: #a2a074;
+  --color-green-olive: #46533b;
+  --color-green-bud: #2e3829;
+  --color-purple-deep: #3f173b;
+  --color-purple-mauve: #5e2f59;
 }
 
 *,
@@ -57,4 +57,24 @@ body {
   width: min(1100px, calc(100% - 32px));
   margin: 16px auto;
   padding: 14px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.site-header img {
+  height: 72px;
+  width: auto;
+}
+
+.site-header ul {
+  display: flex;
+  list-style: none;
+}
+
+.etsy-cta-button {
+  background: var(--color-purple-deep);
+  color: var(--color-cream);
+  padding: 12px 16px;
+  border-radius: 6px;
+  text-decoration: none;
 }
